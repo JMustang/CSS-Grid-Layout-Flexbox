@@ -1,0 +1,62 @@
+body,
+ul,
+li,
+p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 2rem;
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.header {
+    background: rgb(56, 54, 54);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 5px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex>div {
+    flex: 1 1 200px;
+    margin: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 15px;
+
+}
