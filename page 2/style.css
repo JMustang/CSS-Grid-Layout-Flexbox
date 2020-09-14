@@ -11,6 +11,7 @@ p {
 
 body {
     margin-bottom: 100px;
+    background: rgb(240, 234, 234);
 }
 
 a {
@@ -42,12 +43,12 @@ img {
 }
 
 .menu li {
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 .menu li a {
     display: block;
-    padding: 5px;
+    padding: 4px;
 }
 
 .grid {
@@ -60,9 +61,22 @@ img {
 
 }
 
+/*hover effect added */
+
+div {
+    position: relative
+}
+
+div:hover {
+    top: -2px;
+    box-shadow: 0 5px 5px #666;
+}
+
+/* ######################## */
+
 .grid>div {
-    border: 3px solid rgb(0, 0, 0);
-    border-radius: 15px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
 }
 
 .grid>div:nth-child(n + 4) {
@@ -78,6 +92,7 @@ img {
     grid-row: 2 / 5;
     display: block;
     border: none;
+    box-shadow: none;
 }
 
 @media (max-width: 600px) {
